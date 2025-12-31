@@ -129,18 +129,19 @@ h1 {
 }
 
 /* ========================= */
-/* 📲 TABLET (≥768px) */
-/* ========================= */
+ /* ========================= */
 @media (max-width: 768px) {
   body {
     padding: 5px;
   }
  
 
-  .product-img {
-    width: 65%;
-   margin-left: 17%;
-  }
+.product-img {
+  width: 65%;
+  margin: 0 auto; /* PERFECT CENTER */
+  border-radius: 20px;
+  overflow: hidden;
+}
   .section p {
     font-size: 15px;
   }
